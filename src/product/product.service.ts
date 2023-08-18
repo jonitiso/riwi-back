@@ -9,8 +9,7 @@ import { Repository } from 'typeorm';
 import { Inventory } from './entities/inventory.entity';
 import { Warehouse } from '../warehouse/entities/warehouse.entity';
 import { History } from './entities/history.entity';
-
-const INITIAL_QTY = 10;
+import { INITIAL_QTY } from './constants/products';
 
 @Injectable()
 export class ProductService {
